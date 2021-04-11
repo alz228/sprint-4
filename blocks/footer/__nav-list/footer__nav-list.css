@@ -1,0 +1,12 @@
+.footer__nav-list{
+    display:flex;
+    list-style: none;
+    color: white;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 600px){
+    .footer__nav-list{
+    flex-direction: column;
+    }
+}

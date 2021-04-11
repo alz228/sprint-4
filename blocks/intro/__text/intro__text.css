@@ -1,0 +1,17 @@
+.intro__text {
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    max-width: 690px;
+    margin: 40px 0 0;
+    line-height: 163%;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 768px){
+    .intro__text{
+        max-width: 720px;
+    }
+}

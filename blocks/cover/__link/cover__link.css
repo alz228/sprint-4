@@ -1,0 +1,28 @@
+.cover__link {
+    text-decoration: none;
+    max-width: 1184px;
+    position: relative;
+    margin: 92px auto 0;
+    width: calc(100% - 48px * 2);
+    display: block;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        width: 100%;
+        margin: 92px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        margin: 88px 0 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        margin: 64px 0 0;
+    }
+}
